@@ -1,0 +1,187 @@
+/* styles/main.css */
+
+body {
+    font-family: 'Arial, sans-serif';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f8f9fa;
+    color: #333;
+    background-image: url('https://media.timeout.com/images/105611235/image.jpg');
+  }
+
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  main {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+  }
+  
+  #3d-menu {
+    width: 100%;
+    height: 400px;
+    background-color: #ddd;
+    margin: 20px 0;
+  }
+  
+  #calendar {
+    max-width: 900px;
+    margin: 40px auto;
+  }
+  /* Reset default margin and padding */
+body, h1, h2, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Basic styling for the entire page */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f2f2f2;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  header nav ul {
+    list-style-type: none;
+  }
+  
+  header nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .menu-category {
+    margin-bottom: 30px;
+  }
+  
+  .menu-category h2 {
+    font-size: 1.8em;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .menu-category ul {
+    list-style-type: none;
+    background-image: url("https://picketandrail.com/cdn/shop/articles/dangers-of-pine-wood-415894.jpg?v=1686388565");
+  }
+  
+  .menu-category ul li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    clear: both;
+    margin-top: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  
+  @media (max-width: 600px) {
+    header nav ul {
+      display: block;
+      text-align: center;
+      margin-top: 10px;
+    }
+  
+    header nav ul li {
+      display: block;
+      margin: 10px 0;
+    }
+  
+    main {
+      padding: 10px;
+    }
+  
+    .menu-category h2 {
+      font-size: 1.5em;
+    }
+  
+    .menu-category ul li {
+      font-size: 1em;
+    }
+  }
+  
